@@ -1,9 +1,5 @@
 import { Injectable } from '@angular/core';
-
-export interface MenuItem {
-  name: string;
-  url: string;
-}
+import { Menu } from '../models/menu';
 
 @Injectable({
   providedIn: 'root'
@@ -12,8 +8,8 @@ export class MenuService {
 
   constructor() {}
 
-  getItems(): Array<MenuItem> {
-    const menu: Array<MenuItem> = [
+  getItems(): Array<Menu> {
+    const menu: Array<Menu> = [
       {
         name: 'Início',
         url: '#banner'
