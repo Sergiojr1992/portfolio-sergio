@@ -69,3 +69,66 @@
 .banner .box .buttons a i {
     margin-right: 5px;
 }
+
+/* box about */
+
+.about .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza no mobile */
+    gap: 20px;
+}
+
+.about .box .img {
+    flex: 1;
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+.about .box .img img {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.about .box .text {
+    flex: 2;
+    padding: 0 15px;
+    max-width: 800px;
+}
+
+.about .box .text h3 {
+    color: var(--color-blue-2);
+    margin-top: 15px;
+}
+
+.about .box .text p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.about .box .text a {
+    color: var(--color-pink-1);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Layout horizontal em telas maiores */
+@media (min-width: 768px) {
+    .about .box {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .about .box .img {
+        max-width: 240px;
+        margin: 0;
+    }
+
+    .about .box .text {
+        padding-left: 40px;
+        padding-right: 15px;
+    }
+}
+
