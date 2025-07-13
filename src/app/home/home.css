@@ -2,7 +2,7 @@
 .banner {
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg, var(--color-blue-2) 15% , var(--color-blue-3));
+    background: linear-gradient(180deg, var(--color-blue-2) 15%, var(--color-blue-3));
     color: #fff;
     padding-top: 70px;
     text-align: center;
@@ -13,19 +13,19 @@
     flex-direction: column;
     align-items: center;
     padding: 45px 5px;
-    max-width: 700px;     
-    margin: 0 auto;       
-    width: 100%;            
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
 }
 
-.banner .box .paragrafo{
+.banner .box .paragrafo {
     margin: 15px 0;
     font-size: var(--font-size-5);
     font-weight: 400;
     color: #fff;
 }
 
-.banner .box .title1{
+.banner .box .title1 {
     font-size: var(--font-size-3);
 }
 
@@ -56,7 +56,7 @@
     font-weight: 700;
     background: var(--color-blue-1);
     color: #fff;
-   
+
     text-decoration: none;
     gap: 8px;
 }
@@ -75,7 +75,7 @@
 .about .box {
     display: flex;
     flex-direction: column;
-    align-items: center; /* centraliza no mobile */
+    align-items: center;
     gap: 20px;
 }
 
@@ -113,22 +113,97 @@
     text-decoration: none;
 }
 
-/* Layout horizontal em telas maiores */
-@media (min-width: 768px) {
-    .about .box {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-    }
+/* box skills */
 
-    .about .box .img {
-        max-width: 240px;
-        margin: 0;
-    }
-
-    .about .box .text {
-        padding-left: 40px;
-        padding-right: 15px;
-    }
+.skills.github i {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.skills .items i {
+  font-size: 65px;
+}
+
+.skills {
+  background: var(--color-black-1);
+}
+
+/* Descola o h2 e h3 da esquerda */
+.skills .box h2,
+.skills .box h3 {
+  margin-left: 40px;
+  text-align: left;
+}
+
+.skills .box h2,
+.skills .box h3,
+.skills .box h4 {
+  color: #fff;
+}
+
+.skills .box h3 {
+  margin: 5px 0 20px 40px; /* margem esquerda aplicada */
+  font-size: var(--font-size-4);
+}
+
+.skills .box .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.skills .box .items .skills {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha o conteúdo à esquerda */
+  text-align: left;        /* Garante o alinhamento do texto */
+}
+
+.skills .box .items .skills:hover {
+  background: #ffffff1f;
+}
+
+.skills .box .items .skills img,
+.skills .box .items .skills svg {
+  width: 200px;
+}
+
+.skills .box .items .skills h4 {
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .about .box {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .about .box .img {
+    max-width: 240px;
+    margin: 0;
+  }
+
+  .about .box .text {
+    padding-left: 40px;
+    padding-right: 15px;
+  }
+
+  .skills .box .items .skills {
+    width: 25%;
+  }
+
+  .skills .box .items .skills img,
+  .skills .box .items .skills svg {
+    width: 120px;
+  }
+}
