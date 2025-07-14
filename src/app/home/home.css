@@ -4,7 +4,7 @@
 .banner {
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg, var(--color-cinz-1) 15%, var(--color-blue-3));
+    background: linear-gradient(180deg, var(--color-blue-1) 15%, var(--color-blue-3));
     color: #fff;
     padding-top: 70px;
     text-align: center;
@@ -227,7 +227,7 @@
 }
 
 .projects .box .project .img img {
-  width: 100%;
+  width: 80%;
 }
 
 .projects .box .project .text {
