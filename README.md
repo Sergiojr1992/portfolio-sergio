@@ -1,59 +1,38 @@
-# PortfolioSergio
+💻 Sérgio da Silva Junior
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+Bem-vindo ao meu portfólio! 👋
+Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia, resolução de problemas e criação de soluções que fazem a diferença.
 
-## Development server
+🚀 Sobre mim
 
-To start a local development server, run:
+🎓 Atualmente estudando e desenvolvendo projetos práticos para evoluir minhas habilidades.
 
-```bash
-ng serve
-```
+💡 Interesso-me por desenvolvimento web, sistemas integrados e banco de dados.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+📈 Busco sempre aprender novas tecnologias e aplicar na prática em projetos reais.
 
-## Code scaffolding
+🛠️ Tecnologias e Ferramentas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Front-end: Angular, HTML5, CSS3, TypeScript
 
-```bash
-ng generate component component-name
-```
+Back-end: .NET, C#
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Banco de Dados: SQL Server
 
-```bash
-ng generate --help
-```
+Controle de versão: Git & GitHub
 
-## Building
+Outros: boas práticas de usabilidade, UI/UX e integração de sistemas
 
-To build the project run:
+📂 Projetos em destaque
 
-```bash
-ng build
-```
+🔢 Calculadora de Lucro → Aplicação em Angular para ajudar empreendedores a calcular lucros de forma prática.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+🏢 Sistema de Condomínio → Plataforma em Angular + .NET com cadastro de moradores e encomendas, incluindo envio automático de mensagens.
 
-## Running unit tests
+📊 Projetos em andamento → Sempre em atualização, novos sistemas e funcionalidades em breve!
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+🌐 Onde me encontrar
 
-```bash
-ng test
-```
+LinkedIn
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Instagram
