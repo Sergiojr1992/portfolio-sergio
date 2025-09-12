@@ -1,6 +1,9 @@
 
 
 /* box banner */
+
+
+
 .banner {
     display: flex;
     justify-content: center;
@@ -71,6 +74,7 @@
 .banner .box .buttons a i {
     margin-right: 5px;
 }
+
 
 /* box about */
 
